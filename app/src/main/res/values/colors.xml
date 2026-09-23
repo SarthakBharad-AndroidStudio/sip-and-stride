@@ -1,0 +1,8 @@
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="water_blue">#1E88E5</color>
+    <color name="water_track">#22000000</color>
+    <color name="step_green">#43A047</color>
+    <color name="text_grey">#555555</color>
+</resources>

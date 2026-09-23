@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WaterRingView">
+        <attr name="ringProgress" format="integer" />
+        <attr name="ringColor" format="color" />
+        <attr name="ringCaption" format="string" />
+    </declare-styleable>
+</resources>

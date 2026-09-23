@@ -1,0 +1,45 @@
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+release/
+
+# Gradle build output — this is the ~40 MB your submission PDF tells you to delete
+.gradle/
+build/
+app/build/
+
+# Local configuration file (contains the SDK path on YOUR computer, useless to anyone else)
+local.properties
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+.idea/*
+!.idea/codeStyles/
+captures/
+.externalNativeBuild
+.cxx/
+
+# Keystore files — never commit signing keys
+*.jks
+*.keystore
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

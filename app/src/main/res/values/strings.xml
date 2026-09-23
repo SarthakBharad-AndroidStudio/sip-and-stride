@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Sip &amp; Stride</string>
+
+    <!-- MainActivity -->
+    <string name="ring_caption">of goal</string>
+    <string name="water_line">%1$d ml of %2$d ml today</string>
+    <string name="steps_line">%1$d steps today</string>
+    <string name="goal_hint">Goal = weight × 33 ml + 100 ml per 1000 steps</string>
+    <string name="add_cup">+ %1$d ml</string>
+    <string name="remove_cup">− %1$d ml</string>
+    <string name="start_walk">Start walk</string>
+    <string name="no_walks">No walks yet. Press “Start walk” to record one.</string>
+    <string name="walk_saved">Walk saved: %1$d steps</string>
+    <string name="walk_deleted">Walk deleted</string>
+    <string name="menu_share">Share summary</string>
+    <string name="menu_settings">Settings</string>
+    <string name="share_summary">Sip &amp; Stride - today: %1$d ml of %2$d ml water, %3$d steps.</string>
+    <string name="share_chooser">Share your day</string>
+
+    <!-- WalkActivity -->
+    <string name="walk_title">Walk</string>
+    <string name="steps_big">%1$d</string>
+    <string name="steps_label">steps</string>
+    <string name="distance_line">about %1$d m</string>
+    <string name="sensor_mode_counter">Using the step counter sensor</string>
+    <string name="sensor_mode_accelerometer">No step counter on this device - counting with the accelerometer</string>
+    <string name="sensor_mode_none">This device has no usable motion sensor</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop and save</string>
+    <string name="simulate">Simulate 10 steps</string>
+    <string name="start_point">Start: %1$s</string>
+    <string name="end_point">End: %1$s</string>
+    <string name="waiting_for_gps">waiting for GPS…</string>
+    <string name="location_off">location switched off in settings</string>
+    <string name="unknown_place">unknown place</string>
+    <string name="no_provider">No location provider is enabled</string>
+
+    <!-- Permissions -->
+    <string name="permission_title">Permissions needed</string>
+    <string name="permission_message">Sip &amp; Stride counts your steps and stamps each walk with the place it started. For that it needs the activity recognition and location permissions. Without them the walk is still recorded, but with 0 steps and no address.</string>
+    <string name="permission_denied">Permissions denied - the walk will be recorded without them</string>
+    <string name="permission_settings_title">Permissions blocked</string>
+    <string name="permission_settings_message">You denied these permissions permanently. You can switch them on again in the Android app settings.</string>
+    <string name="open_settings">Open settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+
+    <!-- DetailActivity -->
+    <string name="detail_title">Walk details</string>
+    <string name="detail_steps">%1$d steps</string>
+    <string name="detail_distance">Distance: about %1$d m</string>
+    <string name="detail_date">Recorded: %1$s</string>
+    <string name="show_map">Show on map</string>
+    <string name="share_walk">Share walk</string>
+    <string name="delete_walk">Delete walk</string>
+    <string name="delete_title">Delete this walk?</string>
+    <string name="delete_message">This cannot be undone.</string>
+    <string name="delete">Delete</string>
+    <string name="no_map_app">No map application found on this device</string>
+    <string name="share_walk_text">I walked %1$d steps (about %2$d m) on %3$s, starting at %4$s.</string>
+
+    <!-- SettingsActivity -->
+    <string name="settings_title">Settings</string>
+    <string name="weight_label">Body weight in kg</string>
+    <string name="height_label">Body height in cm</string>
+    <string name="cup_label">Glass size in ml</string>
+    <string name="use_location_label">Record the location of a walk</string>
+    <string name="save">Save</string>
+    <string name="saved">Settings saved</string>
+    <string name="invalid_input">Please enter a number in every field</string>
+</resources>
